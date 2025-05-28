@@ -13,6 +13,10 @@ This module allows you to:
      ```sh
      npm install berkaytumal/node-qemu
      ```
+  - From npm:
+    ```sh
+    npm install node-qemu
+    ```
 3. Use the API to launch QEMU, send input, and stream display.
 
 Example usage:
