@@ -1,5 +1,6 @@
 const { spawn } = require('child_process');
 const QMP = require('qemu-qmp');
+const VncStreamer = require('./vnc');
 
 class QemuInstance {
   constructor(options = {}) {
@@ -47,4 +48,4 @@ class QemuInstance {
   }
 }
 
-module.exports = QemuInstance;
+module.exports = { QemuInstance, VncStreamer };
