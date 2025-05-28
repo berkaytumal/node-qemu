@@ -1,0 +1,41 @@
+# Node
+node_modules/
+*.log
+npm-debug.log*
+
+# QEMU build artifacts
+bin/
+*.img
+*.qcow2
+*.vmdk
+*.iso
+*.dsk
+*.vdi
+*.vhd*
+*.raw
+*.pid
+*.sock
+*.tmp
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Misc
+*.tar
+*.tar.*
+*.zip
+*.gz
+*.xz
+*.bak
+*.old
+*.orig
+*.rej
+
+# Python venv (if used)
+venv/
+__pycache__/
