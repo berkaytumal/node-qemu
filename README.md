@@ -5,6 +5,10 @@ This module allows you to:
 - Send input events (touch, mouse, key) to the QEMU guest
 - Stream the display using VNC
 
+No additional system requirements. `node-qemu` automatically fetches and builds QEMU for you.
+
+> You should definitely try it in Node 22 and up, just for the fun of it!
+
 ## Getting Started
 
 1. Install dependencies: `npm install`
@@ -29,10 +33,6 @@ const qemu = require('node-qemu');
 - QEMU process management
 - Input event injection (via QMP or VNC)
 - Display streaming (via VNC)
-
-## Requirements
-- QEMU installed on your system
-- Node.js 18+
 
 ## Contributing
 
