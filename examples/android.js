@@ -11,7 +11,7 @@ const biosPath = path.join(__dirname, 'OVMF_X64.fd');
 const qemu = new QemuInstance({
     headless: false,
     extraArgs: [
-        '-m', '4096',  // Increase memory to 4GB
+        '-m', '2048',  // Increase memory to 4GB
         '-smp', '4',   // Use 4 CPU cores
         '-cpu', 'max',  // Use maximum available CPU features
         '-machine', 'q35,accel=tcg',  // Use TCG software acceleration with Q35 machine type
